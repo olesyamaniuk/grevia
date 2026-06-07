@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Wendy+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 *,
 *::before,
@@ -11,9 +11,9 @@ html {
 
 body {
   margin: 0;
-  background: #dbcba0;
+  background: #c7edef;
 
-  color: #1c1c1b;
+  color: #222222;
 }
 
 h1,
@@ -60,17 +60,17 @@ a {
   scale: 120%;
 }
 
-.o-qheader.is-open .o-qheader-background {
+.p-k-header.is-open .p-k-header-background {
   left: 0;
 }
-.o-qheader-button-wrapper {
+.p-k-header-button-wrapper {
   margin-left: auto;
 }
-.o-qheader-icon {
+.p-k-header-icon {
   display: none;
 }
 
-.o-qheader-icon-button {
+.p-k-header-icon-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,22 +78,22 @@ a {
   border: none;
   border-radius: 50%;
 }
-.o-qnavigation-list.is-open {
+.p-k-navigation-list.is-open {
   right: 0;
 }
-.o-qheader-icon-menu {
+.p-k-header-icon-menu {
   display: block;
 }
 
-.o-qheader-icon-button.is-open .o-qheader-icon-menu {
+.p-k-header-icon-button.is-open .p-k-header-icon-menu {
   display: none;
 }
 
-.o-qheader-icon-button.is-open .o-qheader-icon-close {
+.p-k-header-icon-button.is-open .p-k-header-icon-close {
   display: block;
 }
 
-.o-qheader {
+.p-k-header {
   position: fixed;
   width: 100%;
   z-index: 5;
@@ -101,10 +101,10 @@ a {
   background: transparent;
   display: flex;
   height: 80px;
-  background: #dbcba0;
+  background: #c7edef;
 }
 
-.o-qheader-background {
+.p-k-header-background {
   position: absolute;
   top: 0;
   right: 0;
@@ -112,31 +112,31 @@ a {
   left: 100%;
   z-index: -1;
   transition: left 0.3s ease;
-  background: #dbcba0;
+  background: #c7edef;
 }
-.o-qheader.is-open .o-qheader-background {
+.p-k-header.is-open .p-k-header-background {
   left: 0;
 }
-.o-qheader-button-wrapper {
+.p-k-header-button-wrapper {
   margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.o-qheader-icon-menu {
+.p-k-header-icon-menu {
   display: block;
 }
 
-.o-qheader-icon-button.is-open .o-qheader-icon-menu {
+.p-k-header-icon-button.is-open .p-k-header-icon-menu {
   display: none;
 }
 
-.o-qheader-icon-button.is-open .o-qheader-icon-close {
+.p-k-header-icon-button.is-open .p-k-header-icon-close {
   display: block;
 }
 
-.o-qnavigation {
+.p-k-navigation {
   display: -ms-flexbox;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -152,7 +152,7 @@ a {
   position: relative;
 }
 
-.o-qnavigation-list {
+.p-k-navigation-list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,51 +170,51 @@ a {
   padding-bottom: 60px;
 
   gap: 28px;
-  background: #dbcba0;
+  background: #c7edef;
 }
 
-.o-qnavigation-list.is-open {
+.p-k-navigation-list.is-open {
   right: 0;
 }
 
-.o-qnavigation-link {
+.p-k-navigation-link {
   transition: all 0.3s ease-in-out;
   text-decoration: none;
-  color: #1c1c1b;
-  font-family: Encode Sans Expanded;
-  font-weight: 500;
-  font-style: Medium;
+  color: #222222;
+  font-family: Albert Sans;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 24px;
   leading-trim: NONE;
   line-height: 130%;
   letter-spacing: 0%;
 }
 
-.o-qnavigation-link:hover,
-.o-qnavigatioт-link:focus {
-  color: #6c4817;
+.p-k-navigation-link:hover,
+.p-k-navigatioт-link:focus {
+  color: #fbc119;
 }
 
-.o-qheader.is-open {
+.p-k-header.is-open {
   background-color: transparent;
 }
 
-.o-qnavigation-img {
+.p-k-navigation-img {
   display: none;
 }
 
-@media screen and (min-width: 1207px) {
-  .o-qnavigation-img {
+@media screen and (min-width: 1203px) {
+  .p-k-navigation-img {
     display: block;
-    margin-right: 500px;
+    margin-right: 600px;
   }
-  .o-qpolicy-terms-header-icon-menu {
+  .p-k-policy-terms-header-icon-menu {
     display: none;
   }
-  .o-qheader-button-wrapper {
+  .p-k-header-button-wrapper {
     display: none;
   }
-  .o-qheader {
+  .p-k-header {
     width: 100%;
     height: 60px;
     padding: 0;
@@ -224,10 +224,10 @@ a {
     z-index: 1000;
   }
 
-  .o-qheader-icon-button {
+  .p-k-header-icon-button {
     display: none;
   }
-  .o-qnavigation {
+  .p-k-navigation {
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -237,7 +237,7 @@ a {
     margin: auto;
   }
 
-  .o-qnavigation-list {
+  .p-k-navigation-list {
     background-color: transparent;
     flex-direction: row;
     display: flex;
@@ -246,7 +246,7 @@ a {
     margin: auto;
     padding-block: 0;
     flex: 1;
-    gap: 42px;
+    gap: 28px;
     height: 0px;
     display: flex;
     justify-content: center;
@@ -255,8 +255,8 @@ a {
     padding: 0;
   }
 
-  .o-qnavigation-link {
-    font-family: Encode Sans Expanded;
+  .p-k-navigation-link {
+    font-family: Albert Sans;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
@@ -265,45 +265,43 @@ a {
     letter-spacing: 0%;
   }
 
-  .o-qnavigation-item-desk {
+  .p-k-navigation-item-desk {
     display: none;
   }
 }
 
-.o-qhome {
-  background-image: url("/img/Hero\ \(2\).png");
-  margin: auto;
-  background-size: cover;
-  background-position: top;
-}
-.o-qhome-container {
+.p-k-home-container {
   width: 375px;
   height: 812px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   background-image: url("/img/Hero.png");
-  padding: 308px 16px 0px;
+  padding: 100px 16px 0px;
   margin: auto;
 }
-
-.o-qhome-title {
-  display: none;
+.p-k-home-title {
+  font-family: Albert Sans;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 52px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
 }
-
-.o-qhome-text {
-  font-family: Encode Sans Expanded;
-  font-weight: 500;
-  font-style: Medium;
+.p-k-home-text {
+  font-family: Albert Sans;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 24px;
   leading-trim: NONE;
   line-height: 130%;
   letter-spacing: 0%;
 
-  padding: 0px 0 32px;
+  padding: 40px 0 16px;
 }
-.o-qhome-text-two {
-  font-family: Encode Sans Expanded;
+.p-k-home-text-two {
+  font-family: Albert Sans;
   font-weight: 400;
   font-style: Regular;
   font-size: 16px;
@@ -311,74 +309,71 @@ a {
   line-height: 150%;
   letter-spacing: 0%;
 
-  padding-bottom: 248px;
+  padding-bottom: 277px;
 }
-.o-qhome-link {
-  width: 256px;
+.p-k-home-link {
+  width: 180px;
   margin: auto;
   transition: all 0.3s ease-in-out;
 }
 
-.o-qhome-link:hover {
+.p-k-home-link:hover {
   transform: scale(1.1);
 }
 
-@media screen and (min-width: 1207px) {
-  .o-qhome-container {
+@media screen and (min-width: 1203px) {
+  .p-k-home-container {
     width: 1440px;
-    height: 722px;
+    height: 725px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     background-image: url("/img/Hero\ \(1\).png");
-    padding: 74px 71px 0px;
+    padding: 130px 832px 0px 160px;
     margin: auto;
   }
 
-  .o-qhome-title {
-    display: block;
-    width: 585px;
+  .p-k-home-title {
+    font-family: Albert Sans;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 72px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
   }
 
-  .o-qhome-text {
-    font-family: Encode Sans Expanded;
-    font-weight: 500;
-    font-style: Medium;
+  .p-k-home-text {
+    font-family: Albert Sans;
+    font-weight: 600;
+    font-style: SemiBold;
     font-size: 28px;
     leading-trim: NONE;
     line-height: 130%;
     letter-spacing: 0%;
-    margin-top: -40px;
-    padding: 0px 89px 64px;
+
+    padding: 80px 0px 16px;
   }
-  .o-qhome-text-two {
-    font-family: Encode Sans Expanded;
+  .p-k-home-text-two {
+    font-family: Albert Sans;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
     leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 0%;
-    width: 599px;
-    padding-bottom: 32px;
-    padding-left: 89px;
+
+    padding-bottom: 64px;
   }
-  .o-qhome-link {
+  .p-k-home-link {
     margin: 0;
     transition: all 0.3s ease-in-out;
-    margin-left: 89px;
   }
 }
-.o-qabout {
-  margin: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  background-image: url("/img/Hero\ \(2\).png");
-}
-.o-qabout-container {
+
+.p-k-about-container {
   width: 375px;
-  height: 1408px;
+  height: 1086px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -386,35 +381,33 @@ a {
   padding: 60px 16px 0px;
   margin: auto;
 }
-.o-qabout-title {
-  font-family: Wendy One;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 44px;
+.p-k-about-title {
+  font-family: Albert Sans;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 36px;
   leading-trim: NONE;
   line-height: 120%;
   letter-spacing: 0%;
-  -webkit-text-stroke: 2px #ffffff;
-  color: #6c4817;
 }
-.o-qabout-list {
+.p-k-about-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding-top: 64px;
+  padding-top: 48px;
 }
-.o-qabout-text {
-  font-family: Encode Sans Expanded;
-  font-weight: 500;
-  font-style: Medium;
+.p-k-about-text {
+  font-family: Albert Sans;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 18px;
   leading-trim: NONE;
   line-height: 150%;
   letter-spacing: 0%;
 }
 
-.o-qabout-text-bold {
-  font-family: Encode Sans Expanded;
+.p-k-about-text-bold {
+  font-family: Albert Sans;
   font-weight: 400;
   font-style: Regular;
   font-size: 16px;
@@ -422,47 +415,44 @@ a {
   line-height: 150%;
   letter-spacing: 0%;
 
-  padding-top: 8px;
+  padding-top: 4px;
 }
 
-@media screen and (min-width: 1207px) {
-  .o-qabout {
+@media screen and (min-width: 1203px) {
+  .p-k-about-container {
     width: 1440px;
-  }
-  .o-qabout-container {
-    width: 1440px;
-    height: 747px;
-    padding: 80px 160px 0 736px;
+    height: 679px;
+    padding: 80px 736px 0 160px;
     background-image: url("/img/Features\ \(1\).png");
   }
-  .o-qabout-title {
-    font-family: Wendy One;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 56px;
+  .p-k-about-title {
+    font-family: Albert Sans;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 48px;
     leading-trim: NONE;
     line-height: 120%;
     letter-spacing: 0%;
   }
-  .o-qabout-list {
+  .p-k-about-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding-top: 80px;
+    padding-top: 64px;
     width: 544px;
   }
-  .o-qabout-text {
-    font-family: Encode Sans Expanded;
-    font-weight: 500;
-    font-style: Medium;
+  .p-k-about-text {
+    font-family: Albert Sans;
+    font-weight: 600;
+    font-style: SemiBold;
     font-size: 20px;
     leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 0%;
   }
 
-  .o-qabout-text-bold {
-    font-family: Encode Sans Expanded;
+  .p-k-about-text-bold {
+    font-family: Albert Sans;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
@@ -470,56 +460,47 @@ a {
     line-height: 150%;
     letter-spacing: 0%;
 
-    padding-top: 8px;
+    padding-top: 4px;
   }
 }
-.o-qwhy {
-  margin: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  background-image: url("/img/Hero\ \(2\).png");
-}
-.o-qwhy-container {
+
+.p-k-why-container {
   width: 375px;
   margin: auto;
-  height: 907px;
+
   padding: 60px 16px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  background-image: url("/img/How\ It\ Works.png");
 }
-.o-qwhy-list {
-  padding-top: 64px;
+.p-k-why-list {
+  padding-top: 48px;
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-.o-qwhy-item {
+.p-k-why-item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
 
-.o-qwhy-text-bold {
-  width: 32px;
-  height: 32px;
+.p-k-why-text-bold {
+  width: 30px;
+  height: 30px;
 }
-.o-qwhy-text {
-  font-family: Encode Sans Expanded;
-  font-weight: 500;
-  font-style: Medium;
+.p-k-why-text {
+  font-family: Albert Sans;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 18px;
   leading-trim: NONE;
   line-height: 150%;
   letter-spacing: 0%;
+
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
-.o-qwhy-text-two {
-  font-family: Encode Sans Expanded;
+.p-k-why-text-two {
+  font-family: Albert Sans;
   font-weight: 400;
   font-style: Regular;
   font-size: 16px;
@@ -528,123 +509,102 @@ a {
   letter-spacing: 0%;
 }
 
-@media screen and (min-width: 1207px) {
-  .o-qwhy-container {
+@media screen and (min-width: 1203px) {
+  .p-k-why-container {
     width: 1440px;
-    height: 610px;
-    padding: 80px 736px 0 160px;
-    background-image: url("/img/How\ It\ Works\ \(1\).png");
+
+    padding: 80px 160px;
   }
-  .o-qwhy-list {
-    padding-top: 80px;
+  .p-k-why-list {
+    padding-top: 64px;
+    flex-direction: row;
   }
 
-  .o-qwhy-text {
-    font-family: Encode Sans Expanded;
-    font-weight: 500;
-    font-style: Medium;
+  .p-k-why-text {
+    font-family: Albert Sans;
+    font-weight: 600;
+    font-style: SemiBold;
     font-size: 20px;
     leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 0%;
   }
-  .o-qwhy-text-two {
-    font-family: Encode Sans Expanded;
+  .p-k-why-text-two {
+    font-family: Albert Sans;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
     leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 0%;
+    width: 352px;
   }
 }
 
-.o-qreviews {
-  margin: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  background-image: url("/img/Hero\ \(2\).png");
-}
-.o-qreviews-container {
+.p-k-reviews-container {
   margin: auto;
   padding: 60px 16px;
   width: 375px;
 }
-.o-qreviews-list {
-  padding-top: 64px;
+.p-k-reviews-list {
+  padding-top: 48px;
 }
 
-.o-qreviews-item {
+.p-k-reviews-item {
   margin: 0 8px auto;
-  border: 2px solid #ffffff;
-  background: #6c4817;
+  border: 1px solid #555e5c;
   width: 300px;
+  background: #fdfefb;
+  padding: 16px;
 
-  padding-top: 16px;
-  padding-right: 24px;
-  padding-bottom: 16px;
-  padding-left: 24px;
-  gap: 16px;
-  angle: 0 deg;
-  opacity: 1;
-  top: 177px;
-  left: 16px;
-  border-width: 2px;
   border-radius: 24px;
 }
 
-.o-qreviews-img {
+.p-k-reviews-img {
   height: 18px;
 }
-.o-qreviews-text-bold {
-  font-family: Encode Sans Expanded;
+.p-k-reviews-text-bold {
+  font-family: Albert Sans;
   font-weight: 400;
   font-style: Regular;
   font-size: 16px;
   leading-trim: NONE;
   line-height: 150%;
-  color: #ffffff;
   letter-spacing: 0%;
-  padding: 16px 0;
+
+  padding: 8px 0;
 }
 
-.o-qreviews-text {
-  font-family: Encode Sans Expanded;
-  font-weight: 500;
-  font-style: Medium;
+.p-k-reviews-text {
+  font-family: Albert Sans;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 18px;
   leading-trim: NONE;
   line-height: 150%;
   letter-spacing: 0%;
   text-align: right;
-  color: #dbcba0;
+
+  color: #555e5c;
 }
 
-@media screen and (min-width: 1207px) {
-  .o-qreviews-container {
+@media screen and (min-width: 1203px) {
+  .p-k-reviews-container {
     margin: auto;
     padding: 80px 160px;
     width: 1440px;
   }
-  .o-qreviews-list {
-    padding-top: 80px;
+  .p-k-reviews-list {
+    padding-top: 64px;
   }
 
-  .o-qreviews-item {
+  .p-k-reviews-item {
     margin: 0 16px auto;
     width: 352px;
-
-    padding-top: 16px;
-    padding-right: 24px;
-    padding-bottom: 16px;
-    padding-left: 24px;
-    border-width: 2px;
-    border-radius: 24px;
   }
 
-  .o-qreviews-text-bold {
-    font-family: Encode Sans Expanded;
+  .p-k-reviews-text-bold {
+    font-family: Albert Sans;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
@@ -653,10 +613,10 @@ a {
     letter-spacing: 0%;
   }
 
-  .o-qreviews-text {
-    font-family: Encode Sans Expanded;
-    font-weight: 500;
-    font-style: Medium;
+  .p-k-reviews-text {
+    font-family: Albert Sans;
+    font-weight: 600;
+    font-style: SemiBold;
     font-size: 20px;
     leading-trim: NONE;
     line-height: 150%;
@@ -664,66 +624,58 @@ a {
     text-align: right;
   }
 }
-.o-qfaq {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  background-image: url("/img/Hero\ \(2\).png");
-}
-.o-qfaq-container {
+
+.p-k-faq-container {
   padding: 60px 16px;
   width: 375px;
   margin: auto;
 }
-.o-qfaq-list {
-  padding-top: 64px;
+.p-k-faq-list {
+  padding-top: 48px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
 }
 
-.o-qfaq-item {
-  background: #6c4817;
-  border: 2px solid #ffffff;
-
-  border-radius: 24px;
-  border-width: 2px;
-  padding: 14px 22px;
-  color: #ffffff;
+.p-k-faq-item {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #222222;
 }
 
-.o-qfaq-question {
+.p-k-faq-question {
   display: flex;
+  align-items: start;
   justify-content: space-between;
-  font-family: Encode Sans Expanded;
-  font-weight: 500;
-  font-style: Medium;
+  font-family: Albert Sans;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 18px;
   leading-trim: NONE;
   line-height: 150%;
   letter-spacing: 0%;
 }
 
-.o-qfaq-answer {
-  font-family: Encode Sans Expanded;
+.p-k-faq-answer {
+  font-family: Albert Sans;
   font-weight: 400;
   font-style: Regular;
   font-size: 16px;
   leading-trim: NONE;
   line-height: 150%;
   letter-spacing: 0%;
+  color: #555e5c;
 }
-.o-qtoggle-button {
+.p-k-toggle-button {
   background: none;
   border: none;
   cursor: pointer;
 }
 
-.o-qtoggle-button img {
+.p-k-toggle-button img {
   width: 28px;
   transition: transform 0.3s ease;
 }
-.o-qfaq-answer {
+.p-k-faq-answer {
   max-height: 0;
   overflow: hidden;
   transition:
@@ -732,46 +684,38 @@ a {
   opacity: 0;
 }
 
-.o-qfaq-answer.open {
+.p-k-faq-answer.open {
   max-height: 200px;
   opacity: 1;
   padding-top: 8px;
 }
 
-.o-qtoggle-button img.rotated {
+.p-k-toggle-button img.rotated {
   transform: rotate(180deg);
 }
-@media screen and (min-width: 1207px) {
-  .o-qfaq-container {
+@media screen and (min-width: 1203px) {
+  .p-k-faq-container {
     padding: 80px 160px;
     width: 1440px;
-    min-width: 641px;
+
     margin: auto;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-position: top;
-    background-image: url("/img/FAQ.png");
   }
-  .o-qfaq-list {
-    padding-top: 80px;
-    width: 736px;
+  .p-k-faq-list {
+    padding-top: 64px;
   }
 
-  .o-qfaq-item {
-  }
-
-  .o-qfaq-question {
-    font-family: Encode Sans Expanded;
-    font-weight: 500;
-    font-style: Medium;
+  .p-k-faq-question {
+    font-family: Albert Sans;
+    font-weight: 600;
+    font-style: SemiBold;
     font-size: 20px;
     leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 0%;
   }
 
-  .o-qfaq-answer {
-    font-family: Encode Sans Expanded;
+  .p-k-faq-answer {
+    font-family: Albert Sans;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
@@ -780,12 +724,12 @@ a {
     letter-spacing: 0%;
   }
 }
-.o-qpolicy-terms-container {
+.p-k-policy-terms-container {
   padding: 120px 16px 40px;
   width: 375px;
   margin: auto;
 
-  font-family: Encode Sans Expanded;
+  font-family: Albert Sans;
   font-weight: 400;
   font-style: Regular;
   font-size: 16px;
@@ -794,42 +738,41 @@ a {
   letter-spacing: 0%;
 }
 
-.o-qpolicy-terms-container h1 {
-  text-transform: uppercase;
+.p-k-policy-terms-container h1 {
   margin-bottom: 20px;
-  font-family: Wendy One;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 44px;
+  font-family: Albert Sans;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 36px;
   leading-trim: NONE;
   line-height: 120%;
   letter-spacing: 0%;
 }
-.o-qpolicy-terms-container h3 {
+.p-k-policy-terms-container h2 {
   margin: 20px 0;
-  font-family: Encode Sans Expanded;
-  font-weight: 500;
-  font-style: Medium;
+  font-family: Albert Sans;
+  font-weight: 600;
+  font-style: SemiBold;
   font-size: 24px;
   leading-trim: NONE;
   line-height: 130%;
   letter-spacing: 0%;
 }
 
-.o-qpolicy-terms-container ul {
+.p-k-policy-terms-container ul {
   list-style-type: disc;
   margin-left: 20px;
 }
-.o-qpolicy-terms-container a {
+.p-k-policy-terms-container a {
   text-decoration: none;
-  color: #000000;
+  color: #222222;
 }
 
-@media screen and (min-width: 1207px) {
-  .o-qpolicy-terms-container {
+@media screen and (min-width: 1203px) {
+  .p-k-policy-terms-container {
     padding: 140px 160px 80px;
     width: 1440px;
-    font-family: Encode Sans Expanded;
+    font-family: Albert Sans;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
@@ -837,19 +780,19 @@ a {
     line-height: 150%;
     letter-spacing: 0%;
   }
-  .o-qpolicy-terms-container h1 {
-    font-family: Wendy One;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 56px;
+  .p-k-policy-terms-container h1 {
+    font-family: Albert Sans;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 48px;
     leading-trim: NONE;
     line-height: 120%;
     letter-spacing: 0%;
   }
-  .o-qpolicy-terms-container h3 {
-    font-family: Encode Sans Expanded;
-    font-weight: 500;
-    font-style: Medium;
+  .p-k-policy-terms-container h2 {
+    font-family: Albert Sans;
+    font-weight: 600;
+    font-style: SemiBold;
     font-size: 28px;
     leading-trim: NONE;
     line-height: 130%;
@@ -857,26 +800,26 @@ a {
   }
 }
 
-.o-qfooter-container {
+.p-k-footer-container {
   width: 375px;
   padding: 40px 16px 16px;
   margin: auto;
   display: flex;
   flex-direction: column;
-  color: #dbcba0;
+  color: #c7edef;
   gap: 40px;
 }
 
-.o-qfooter-wrapper {
+.p-k-footer-wrapper {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.o-qfooter-text {
+.p-k-footer-text {
   text-decoration: none;
   color: inherit;
-  font-family: Encode Sans Expanded;
+  font-family: Albert Sans;
   font-weight: 400;
   font-style: Regular;
   font-size: 16px;
@@ -886,8 +829,8 @@ a {
   text-align: center;
 }
 
-.o-qfooter-copyright {
-  font-family: Encode Sans Expanded;
+.p-k-footer-copyright {
+  font-family: Albert Sans;
   font-weight: 400;
   font-style: Regular;
   font-size: 11px;
@@ -897,15 +840,15 @@ a {
   text-align: center;
 }
 
-@media screen and (min-width: 1207px) {
-  .o-qfooter-container {
+@media screen and (min-width: 1203px) {
+  .p-k-footer-container {
     width: 1440px;
     padding: 40px 160px 16px;
     gap: 40px;
   }
 
-  .o-qfooter-text {
-    font-family: Encode Sans Expanded;
+  .p-k-footer-text {
+    font-family: Albert Sans;
     font-weight: 400;
     font-style: Regular;
     font-size: 18px;
@@ -915,8 +858,8 @@ a {
     text-align: center;
   }
 
-  .o-qfooter-copyright {
-    font-family: Encode Sans Expanded;
+  .p-k-footer-copyright {
+    font-family: Albert Sans;
     font-weight: 400;
     font-style: Regular;
     font-size: 12px;
